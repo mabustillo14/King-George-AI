@@ -51,7 +51,6 @@ Para utilizar el programa, es necesario generar tus propias claves de API. Sigue
 OPENAI_KEY = "Agrega tu OpenAI Api Key"
 ```
 
-
 # <br>Convención de commits 🎯
 Se utilizó el [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/):
 una convención de reglas para crear un historial de commits explícito; lo que facilita la escritura de herramientas automatizadas encima. 
