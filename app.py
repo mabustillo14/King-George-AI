@@ -3,10 +3,10 @@ from tools import ask_chatbot
 
 def check_inputs(context, question, audio):
     if(audio != None and context !="" and question !="" ):
-        return KPI, ask_chatbot(context, question, audio)
-
+        respuesta = ask_chatbot(context, question, audio)
+        return respuesta[0], respuesta[1]
     else:
-        return "!Ups, hubo un Error! - Nos hacen falta información para poder ayudarte"
+        return "!Ups, hubo un Error! - Nos hacen falta información para poder ayudarte", None
 
 
 # Descripción del Header
@@ -30,7 +30,8 @@ gui = gr.Interface(
     fn=check_inputs, 
     inputs=[context, question, audio], 
     outputs=[KPI, resultado],
-    description = description
+    description = description,
+    theme=gr.themes.Soft()
 )
 
 gui.launch()
