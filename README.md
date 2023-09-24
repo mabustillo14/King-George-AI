@@ -55,7 +55,6 @@ OPENAI_KEY = "Agrega tu OpenAI Api Key"
 ```
 # OPEN AI CREDENTIAL
 OPENAI_KEY = "Agrega tu OpenAI Api Key"
-```
 
 # <br>Convención de commits 🎯
 Se utilizó el [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/):
