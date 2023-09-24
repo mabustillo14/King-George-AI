@@ -1,8 +1,9 @@
 # King-George-AI
 
-**Legal Insight AI** es un programa de análisis de contratos basado en inteligencia artificial (IA). Simplifica la comprensión legal, toma decisiones informadas y optimiza tu flujo de trabajo. 
+**King George AI** es tu aliado inteligente para mejorar tus habilidades comunicativas 💯. <br>Hacemos análisis de tus respuestas ante preguntas de clientes 🔍 y te damos feedback para mejorar tu potencial 🙌.
+<br>Descubre el poder de la inteligencia artificial aplicada a potenciar los Call Centers.🤖💡
 
-Este proyecto es parte del Coding Challenge de [Makers Fellowship](https://www.makers.build/) 2023.
+Este proyecto es parte del **Hackathon de [Makers Fellowship] Make your Closet Dream Reality**(https://www.makers.build/) 2023.
 
 
 # <br>Tecnologías ⚙️
@@ -22,16 +23,16 @@ Para poder **inicializar el programa** desde la consola debes seguir los siguien
 
 Para **hacer una consulta desde la GUI** debes seguir los siguientes pasos:
 
-1) **Carga el contrato** que deseas analizar.
-2) **Selecciona las categorías** que deseas analizar.
-3) **Opcional:** Haz una pregunta puntual.
-4) Haz clic en **"Analizar"**.
+1) Dame **información de la compañía** a quien das soporte
+2) Ingresa la **pregunta del cliente**
+3) **Graba tu respuesta** a la pregunta
+4) Haz clic en **"Submmit"**.
 5) Espera los resultados.
 6) Explora las conclusiones y **obten insights**.
 
 Si hiciste bien los pasos, deberias obtener un resultado similar al siguiente:
 
-![captura de pantalla de la ejecución del programa Legal Insight AI](img/captura.JPG)
+![captura de pantalla de la ejecución del programa King George AI](img/captura.JPG)
 
 # <br>Nuestra API 📩
 
@@ -44,14 +45,8 @@ Para utilizar el programa, es necesario generar tus propias claves de API. Sigue
 
 1) Crea un archivo llamado **.env** en la raíz de tu proyecto
 
-2) Dentro del archivo .env, agrega las credenciales de tu base de datos de Firebase.
 ```
-# FIREBASE DATABASE
-DATABASE_URL = "URL base de datos de Firebase"
-
-FIREBASE_CREDENTIALS = "Biblioteca .JSON con las credenciales"
-```
-3) Dentro del archivo .env, agrega las credenciales de tu cuenta de OpenAI.
+2) Dentro del archivo .env, agrega las credenciales de tu cuenta de OpenAI.
 ```
 # OPEN AI CREDENTIAL
 OPENAI_KEY = "Agrega tu OpenAI Api Key"
