@@ -45,16 +45,12 @@ Para utilizar el programa, es necesario generar tus propias claves de API. Sigue
 
 1) Crea un archivo llamado **.env** en la raíz de tu proyecto
 
-```
 2) Dentro del archivo .env, agrega las credenciales de tu cuenta de OpenAI.
 ```
 # OPEN AI CREDENTIAL
 OPENAI_KEY = "Agrega tu OpenAI Api Key"
 ```
-3) Dentro del archivo .env, agrega las credenciales de tu cuenta de OpenAI.
-```
-# OPEN AI CREDENTIAL
-OPENAI_KEY = "Agrega tu OpenAI Api Key"
+
 
 # <br>Convención de commits 🎯
 Se utilizó el [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/):
