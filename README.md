@@ -1,4 +1,4 @@
-# King-George-AI
+# King-George-AI 👑
 
 **King George AI** es tu aliado inteligente para mejorar tus habilidades comunicativas 💯. <br>Hacemos análisis de tus respuestas ante preguntas de clientes 🔍 y te damos feedback para mejorar tu potencial 🙌.
 <br>Descubre el poder de la inteligencia artificial aplicada a potenciar los Call Centers.🤖💡
