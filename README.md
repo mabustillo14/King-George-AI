@@ -3,7 +3,7 @@
 **King George AI** es tu aliado inteligente para mejorar tus habilidades comunicativas 💯. <br>Hacemos análisis de tus respuestas ante preguntas de clientes 🔍 y te damos feedback para mejorar tu potencial 🙌.
 <br>Descubre el poder de la inteligencia artificial aplicada a potenciar los Call Centers.🤖💡
 
-Este proyecto es parte del **Hackathon de [Makers Fellowship] Make your Closet Dream Reality**(https://www.makers.build/) 2023.
+Este proyecto es parte del **Hackathon de [Makers Fellowship](https://www.makers.build/): Make your Closet Dream Reality** 2023.
 
 
 # <br>Tecnologías ⚙️
@@ -47,6 +47,11 @@ Para utilizar el programa, es necesario generar tus propias claves de API. Sigue
 
 ```
 2) Dentro del archivo .env, agrega las credenciales de tu cuenta de OpenAI.
+```
+# OPEN AI CREDENTIAL
+OPENAI_KEY = "Agrega tu OpenAI Api Key"
+```
+3) Dentro del archivo .env, agrega las credenciales de tu cuenta de OpenAI.
 ```
 # OPEN AI CREDENTIAL
 OPENAI_KEY = "Agrega tu OpenAI Api Key"
