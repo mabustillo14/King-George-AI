@@ -17,20 +17,30 @@ Simplemente carga respuestas a ciertas preguntas clave y obtén conclusiones det
 </center>
 """
 
+# Descripción del Footer
+article = """
+<br>
+<b>¿Por qué elegirnos?</b>
+<br><b>King George AI  👑</b>, tu aliado inteligente para mejorar tus habilidades comunicativas 💯. <br>Hacemos análisis de tus respuestas ante preguntas de clientes 🔍 y te damos feedback para mejorar tu potencial 🙌.
+<br>Descubre el poder de la inteligencia artificial aplicada a potenciar los Call Centers.🤖💡
+"""
+
+
 # Inputs
-context = gr.Textbox(label="1) Carga el link de la webpage de la compañía")
-question = gr.Textbox(label="2) Carga la pregunta")
-audio = gr.Audio(label="3) Graba tu respuesta", source="microphone", type="filepath")
+context = gr.Textbox(label="1) Dame información de la compañía a quien das soporte 🔗")
+question = gr.Textbox(label="2) Ingresa la pregunta del cliente ❓")
+audio = gr.Audio(label="3) Graba tu respuesta (máximo 1 minuto) 🎵", source="microphone", type="filepath")
 
 # Outputs
-KPI = gr.Textbox(label="Algunas métricas importantes de tu respuesta")
-resultado = gr.Textbox(label="Recomendaciones")
+KPI = gr.Textbox(label="Métricas importantes de tu respuesta 🔔")
+resultado = gr.Textbox(label="Feedback 💡")
 
 gui = gr.Interface(
     fn=check_inputs, 
     inputs=[context, question, audio], 
     outputs=[KPI, resultado],
     description = description,
+    article = article,
     theme=gr.themes.Soft()
 )
 
